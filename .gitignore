@@ -1,0 +1,5 @@
+electronics/WiFi switch-cache.lib
+electronics/WiFi switch.bak
+electronics/WiFi switch.kicad_pcb-bak
+electronics/*.tmp
+electronics/fp-info-cache
