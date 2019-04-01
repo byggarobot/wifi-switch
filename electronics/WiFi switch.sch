@@ -25,34 +25,23 @@ F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manua
 	1    3900 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Male J3
-U 1 1 5C7DBCE5
-P 1250 6400
-F 0 "J3" H 1200 6400 50  0000 C CNN
-F 1 "Programmer" H 1000 6300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1250 6400 50  0001 C CNN
-F 3 "~" H 1250 6400 50  0001 C CNN
-	1    1250 6400
-	1    0    0    -1  
-$EndComp
-Text Label 1550 6300 0    50   ~ 0
+Text Label 1550 6300 0    50   ~ 6
 VCC
-Text GLabel 1950 6500 2    50   Input ~ 0
+Text GLabel 1950 6500 2    50   Input ~ 6
 RX
-Text GLabel 1950 6400 2    50   Input ~ 0
+Text GLabel 1950 6400 2    50   Input ~ 6
 TX
 Wire Wire Line
 	1450 6400 1950 6400
 Wire Wire Line
 	1450 6500 1950 6500
-Text Label 1550 6400 0    50   ~ 0
+Text Label 1550 6400 0    50   ~ 6
 P_RX
-Text Label 1550 6500 0    50   ~ 0
+Text Label 1550 6500 0    50   ~ 6
 P_TX
-Text GLabel 4800 3200 2    50   Input ~ 0
+Text GLabel 4800 3200 2    50   Input ~ 6
 TX
-Text GLabel 4800 3400 2    50   Input ~ 0
+Text GLabel 4800 3400 2    50   Input ~ 6
 RX
 Wire Wire Line
 	4500 3400 4800 3400
@@ -69,17 +58,17 @@ F 3 "" H 5000 950 50  0001 C CNN
 	1    5000 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 3100 0    50   Input ~ 0
+Text GLabel 2900 3100 0    50   Input ~ 6
 RST
-Text GLabel 2900 3300 0    50   Input ~ 0
+Text GLabel 2900 3300 0    50   Input ~ 6
 EN
 Wire Wire Line
 	2900 3300 3300 3300
-Text GLabel 4800 3100 2    50   Input ~ 0
+Text GLabel 4800 3100 2    50   Input ~ 6
 D3
 Wire Wire Line
 	4500 3100 4800 3100
-Text GLabel 4800 3300 2    50   Input ~ 0
+Text GLabel 4800 3300 2    50   Input ~ 6
 D4
 Wire Wire Line
 	4500 3300 4800 3300
@@ -127,13 +116,13 @@ F 3 "~" H 1450 3700 50  0001 C CNN
 	1    1450 3700
 	0    1    1    0   
 $EndComp
-Text GLabel 1900 3100 2    50   Input ~ 0
+Text GLabel 1900 3100 2    50   Input ~ 6
 EN
-Text GLabel 1900 3300 2    50   Input ~ 0
+Text GLabel 1900 3300 2    50   Input ~ 6
 D3
-Text GLabel 1900 3500 2    50   Input ~ 0
+Text GLabel 1900 3500 2    50   Input ~ 6
 D4
-Text GLabel 1900 3700 2    50   Input ~ 0
+Text GLabel 1900 3700 2    50   Input ~ 6
 RST
 Wire Wire Line
 	1600 3500 1900 3500
@@ -180,17 +169,6 @@ $EndComp
 Wire Wire Line
 	3900 2700 3900 2900
 $Comp
-L Device:C_Small C2
-U 1 1 5C80B48A
-P 5000 1600
-F 0 "C2" H 5092 1646 50  0000 L CNN
-F 1 "100nF" H 5092 1555 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5000 1600 50  0001 C CNN
-F 3 "~" H 5000 1600 50  0001 C CNN
-	1    5000 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0113
 U 1 1 5C80B492
 P 5000 1900
@@ -203,17 +181,6 @@ F 3 "" H 5000 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 1700 5000 1900
-$Comp
-L Device:C_Small C1
-U 1 1 5C80D7AC
-P 4550 1600
-F 0 "C1" H 4642 1646 50  0000 L CNN
-F 1 "10uF" H 4642 1555 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4550 1600 50  0001 C CNN
-F 3 "~" H 4550 1600 50  0001 C CNN
-	1    4550 1600
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0114
 U 1 1 5C80D7B4
@@ -237,35 +204,35 @@ Connection ~ 4550 1100
 Wire Wire Line
 	5000 1100 5000 950 
 Connection ~ 5000 1100
-Text GLabel 4800 4000 2    50   Input ~ 0
+Text GLabel 4800 4000 2    50   Input ~ 6
 D8
 Wire Wire Line
 	4500 4000 4800 4000
-Text Notes 4450 1750 1    24   ~ 0
+Text Notes 4450 1750 1    24   ~ 4
 Place close to U2
-Text Notes 4900 1750 1    24   ~ 0
+Text Notes 4900 1750 1    24   ~ 4
 Place close to U2
-Text GLabel 4800 3600 2    50   Input ~ 0
+Text GLabel 4800 3600 2    50   Input ~ 6
 D1
-Text GLabel 4800 3500 2    50   Input ~ 0
+Text GLabel 4800 3500 2    50   Input ~ 6
 D2
 Wire Wire Line
 	4500 3500 4800 3500
 Wire Wire Line
 	4800 3600 4500 3600
-Text GLabel 4800 3700 2    50   Input ~ 0
+Text GLabel 4800 3700 2    50   Input ~ 6
 D6
 Wire Wire Line
 	4500 3700 4800 3700
-Text GLabel 4800 3800 2    50   Input ~ 0
+Text GLabel 4800 3800 2    50   Input ~ 6
 D7
-Text GLabel 4800 3900 2    50   Input ~ 0
+Text GLabel 4800 3900 2    50   Input ~ 6
 D5
 Wire Wire Line
 	4500 3800 4800 3800
 Wire Wire Line
 	4800 3900 4500 3900
-Text GLabel 2900 3500 0    50   Input ~ 0
+Text GLabel 2900 3500 0    50   Input ~ 6
 ADC
 Wire Wire Line
 	2900 3500 3300 3500
@@ -359,7 +326,7 @@ Wire Wire Line
 Connection ~ 6800 3900
 Wire Wire Line
 	6800 3900 6800 4100
-Text GLabel 5800 4300 0    50   Input ~ 0
+Text GLabel 5800 4300 0    50   Input ~ 6
 D7
 Wire Wire Line
 	5800 4300 6000 4300
@@ -389,17 +356,6 @@ Wire Wire Line
 	4150 1300 4250 1300
 Wire Wire Line
 	4250 1300 4250 1900
-$Comp
-L Device:C_Small C3
-U 1 1 5C89C047
-P 6000 3500
-F 0 "C3" H 6092 3546 50  0000 L CNN
-F 1 "10uF" H 6092 3455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6000 3500 50  0001 C CNN
-F 3 "~" H 6000 3500 50  0001 C CNN
-	1    6000 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 3400 6000 3100
 Wire Wire Line
@@ -436,17 +392,6 @@ F 3 "~" H 6100 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D2
-U 1 1 5C8A914E
-P 6500 1250
-F 0 "D2" V 6538 1133 50  0000 R CNN
-F 1 "LED" V 6447 1133 50  0000 R CNN
-F 2 "LEDs:LED_0805" H 6500 1250 50  0001 C CNN
-F 3 "~" H 6500 1250 50  0001 C CNN
-	1    6500 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R6
 U 1 1 5C8A91A0
 P 6100 1650
@@ -457,21 +402,8 @@ F 3 "~" H 6100 1650 50  0001 C CNN
 	1    6100 1650
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R R7
-U 1 1 5C8A925A
-P 6500 1650
-F 0 "R7" V 6600 1650 50  0000 C CNN
-F 1 "10K" V 6500 1650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6430 1650 50  0001 C CNN
-F 3 "~" H 6500 1650 50  0001 C CNN
-	1    6500 1650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6100 1400 6100 1500
-Wire Wire Line
-	6500 1400 6500 1500
 $Comp
 L power:GND #PWR03
 U 1 1 5C8AE9E1
@@ -485,10 +417,6 @@ F 3 "" H 6100 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 1800 6100 1900
-Text GLabel 6500 1950 3    50   Input ~ 0
-D1
-Wire Wire Line
-	6500 1800 6500 1950
 $Comp
 L power:+3V3 #PWR02
 U 1 1 5C8B47FB
@@ -500,32 +428,8 @@ F 3 "" H 6100 950 50  0001 C CNN
 	1    6100 950 
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR05
-U 1 1 5C8B4844
-P 6500 950
-F 0 "#PWR05" H 6500 800 50  0001 C CNN
-F 1 "+3V3" H 6515 1123 50  0000 C CNN
-F 2 "" H 6500 950 50  0001 C CNN
-F 3 "" H 6500 950 50  0001 C CNN
-	1    6500 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 950  6100 1100
-Wire Wire Line
-	6500 950  6500 1100
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 5C8D166A
-P 1000 1100
-F 0 "J1" H 1150 1000 50  0000 C CNN
-F 1 "AC IN" H 1200 1100 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 1000 1100 50  0001 C CNN
-F 3 "~" H 1000 1100 50  0001 C CNN
-	1    1000 1100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 1300 3350 1300
 $Comp
@@ -539,9 +443,9 @@ F 3 "~" H 1450 3500 50  0001 C CNN
 	1    1450 3500
 	0    1    1    0   
 $EndComp
-Text Label 7450 3100 0    50   ~ 0
+Text Label 7450 3100 0    50   ~ 6
 SW-A
-Text Label 7450 3900 0    50   ~ 0
+Text Label 7450 3900 0    50   ~ 6
 SW-B
 Wire Wire Line
 	1600 3700 1900 3700
@@ -560,25 +464,25 @@ Wire Wire Line
 	4150 1100 4550 1100
 Wire Wire Line
 	2900 3100 3300 3100
-Text GLabel 4800 4100 2    50   Input ~ 0
+Text GLabel 4800 4100 2    50   Input ~ 6
 D0
-Text GLabel 2650 1100 0    50   Input ~ 0
+Text GLabel 2650 1100 0    50   Input ~ 6
 AC-L
-Text GLabel 2650 1300 0    50   Input ~ 0
+Text GLabel 2650 1300 0    50   Input ~ 6
 AC-N
-Text GLabel 1700 1100 2    50   Input ~ 0
+Text GLabel 1700 1100 2    50   Input ~ 6
 AC-L
-Text GLabel 1700 1200 2    50   Input ~ 0
+Text GLabel 1700 1200 2    50   Input ~ 6
 AC-N
 Wire Wire Line
 	1700 1200 1200 1200
-Text Notes 5900 3650 1    24   ~ 0
+Text Notes 5900 3650 1    24   ~ 4
 Place close to K1
-Text GLabel 8550 3100 2    50   Input ~ 0
+Text GLabel 8550 3100 2    50   Input ~ 6
 AC-L
 Wire Wire Line
 	7200 3900 8900 3900
-Text GLabel 8800 3800 0    50   Input ~ 0
+Text GLabel 8800 3800 0    50   Input ~ 6
 AC-N
 Wire Wire Line
 	8800 3800 8900 3800
@@ -656,7 +560,7 @@ $EndComp
 Connection ~ 8500 1450
 Wire Wire Line
 	8400 1450 8500 1450
-Text GLabel 8600 1450 2    50   Input ~ 0
+Text GLabel 8600 1450 2    50   Input ~ 6
 D5
 Wire Wire Line
 	8100 950  8100 1150
@@ -710,7 +614,7 @@ F 3 "" H 3650 6550 50  0001 C CNN
 	1    3650 6350
 	0    1    1    0   
 $EndComp
-Text GLabel 3650 5900 1    50   Input ~ 0
+Text GLabel 3650 5900 1    50   Input ~ 6
 D3
 $Comp
 L power:GND #PWR010
@@ -738,7 +642,7 @@ F 3 "" H 3000 6550 50  0001 C CNN
 	1    3000 6350
 	0    1    1    0   
 $EndComp
-Text GLabel 3000 5950 1    50   Input ~ 0
+Text GLabel 3000 5950 1    50   Input ~ 6
 RST
 $Comp
 L power:GND #PWR09
@@ -755,7 +659,7 @@ Wire Wire Line
 	1450 6300 1750 6300
 Wire Wire Line
 	1750 6300 1750 6100
-Text Label 1550 6600 0    50   ~ 0
+Text Label 1550 6600 0    50   ~ 6
 GND
 Wire Wire Line
 	1750 6600 1750 6750
@@ -794,7 +698,7 @@ F 3 "" H 1200 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 3900 1900 3900
-Text GLabel 1900 3900 2    50   Input ~ 0
+Text GLabel 1900 3900 2    50   Input ~ 6
 D8
 $Comp
 L Device:R R5
@@ -806,17 +710,6 @@ F 2 "Resistors_SMD:R_0805" V 1380 3900 50  0001 C CNN
 F 3 "~" H 1450 3900 50  0001 C CNN
 	1    1450 3900
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 5CACC850
-P 2650 6350
-F 0 "C4" H 2742 6396 50  0000 L CNN
-F 1 "100nF" H 2742 6305 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2650 6350 50  0001 C CNN
-F 3 "~" H 2650 6350 50  0001 C CNN
-	1    2650 6350
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2650 6250 2650 6050
@@ -832,4 +725,111 @@ Wire Wire Line
 Connection ~ 3000 6650
 Wire Wire Line
 	3000 6650 3000 6750
+$Comp
+L Device:C_Small C1
+U 1 1 5C80D7AC
+P 4550 1600
+F 0 "C1" H 4642 1646 50  0000 L CNN
+F 1 "10uF" H 4642 1555 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4550 1600 50  0001 C CNN
+F 3 "~" H 4550 1600 50  0001 C CNN
+	1    4550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5C80B48A
+P 5000 1600
+F 0 "C2" H 5092 1646 50  0000 L CNN
+F 1 "100nF" H 5092 1555 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5000 1600 50  0001 C CNN
+F 3 "~" H 5000 1600 50  0001 C CNN
+	1    5000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5C89C047
+P 6000 3500
+F 0 "C3" H 6092 3546 50  0000 L CNN
+F 1 "10uF" H 6092 3455 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6000 3500 50  0001 C CNN
+F 3 "~" H 6000 3500 50  0001 C CNN
+	1    6000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5CACC850
+P 2650 6350
+F 0 "C4" H 2742 6396 50  0000 L CNN
+F 1 "100nF" H 2742 6305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2650 6350 50  0001 C CNN
+F 3 "~" H 2650 6350 50  0001 C CNN
+	1    2650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5C7DBCE5
+P 1250 6400
+F 0 "J3" H 1200 6400 50  0000 C CNN
+F 1 "Programmer" H 1000 6300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1250 6400 50  0001 C CNN
+F 3 "~" H 1250 6400 50  0001 C CNN
+	1    1250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5C8A914E
+P 6500 1250
+F 0 "D2" V 6538 1133 50  0000 R CNN
+F 1 "LED" V 6447 1133 50  0000 R CNN
+F 2 "LEDs:LED_0805" H 6500 1250 50  0001 C CNN
+F 3 "~" H 6500 1250 50  0001 C CNN
+	1    6500 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5C8A925A
+P 6500 1650
+F 0 "R7" V 6600 1650 50  0000 C CNN
+F 1 "10K" V 6500 1650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6430 1650 50  0001 C CNN
+F 3 "~" H 6500 1650 50  0001 C CNN
+	1    6500 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 1400 6500 1500
+Text GLabel 6500 1950 3    50   Input ~ 6
+D1
+Wire Wire Line
+	6500 1800 6500 1950
+$Comp
+L power:+3V3 #PWR05
+U 1 1 5C8B4844
+P 6500 950
+F 0 "#PWR05" H 6500 800 50  0001 C CNN
+F 1 "+3V3" H 6515 1123 50  0000 C CNN
+F 2 "" H 6500 950 50  0001 C CNN
+F 3 "" H 6500 950 50  0001 C CNN
+	1    6500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 950  6500 1100
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5C8D166A
+P 1000 1200
+F 0 "J1" H 1150 1100 50  0000 C CNN
+F 1 "AC IN" H 1200 1200 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 1000 1200 50  0001 C CNN
+F 3 "~" H 1000 1200 50  0001 C CNN
+	1    1000 1200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
